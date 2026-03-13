@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Nuestro Sur</title>
+<script>
+const lang = navigator.language || navigator.userLanguage;
+
+if(lang.startsWith("it")){
+window.location.href="/it/";
+}
+else if(lang.startsWith("en")){
+window.location.href="/en/";
+}
+else{
+window.location.href="/es/";
+}
+</script>
+</head>
+<body></body>
+</html>
